@@ -97,5 +97,6 @@ def alphabetize(x):
         y += 1
         aj = ai.replace('  ', ' ')
         ak = aj.replace(' ', ', ')
-    return(ak)
-print(alphabetize(['perpetual', 'penalize', 'penis', 'exists', 'exist', 'fortitude', 'fortnite']))
+        al = ak[0:len(ak)-2]
+    return(al)
+print(alphabetize(['create', 'ascertain', 'bear', 'infinity', 'violence', 'hotdog', 'sweep', 'ascend']))
